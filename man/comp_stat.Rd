@@ -54,3 +54,6 @@ A median test for functional data, Journal of Nonparametric Statistics,
 \code{\link[=stat_wmw]{stat_wmw()}}, \code{\link[=stat_hkr]{stat_hkr()}},
 \code{\link[=stat_cff]{stat_cff()}}
 }
+\author{
+Zaineb Smida, Ghislain DURIF, Lionel Cucala
+}

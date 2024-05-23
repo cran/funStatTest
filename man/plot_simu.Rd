@@ -38,3 +38,6 @@ plot_simu(simu_data)
 \seealso{
 \code{\link[=simul_data]{simul_data()}}
 }
+\author{
+Zaineb Smida, Ghislain DURIF, Lionel Cucala
+}

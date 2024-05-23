@@ -15,8 +15,7 @@ Smida et al 2022 \[1\].
 
 This package is developed by:
 
-- Zaineb Smida
-  ([link](https://smidazai.github.io/portfolio/)\|[ORCID](https://orcid.org/0000-0002-9974-299X))
+- Zaineb Smida ([ORCID](https://orcid.org/0000-0002-9974-299X))
 - Ghislain Durif
   ([link](https://gdurif.perso.math.cnrs.fr/)\|[ORCID](https://orcid.org/0000-0003-2567-1401))
 - Lionel Cucala ([link](https://imag.umontpellier.fr/~cucala/))
@@ -96,21 +95,21 @@ comparison presented in Smida et al 2022 \[1\]:
 res <- comp_stat(MatX, MatY, stat = c("mo", "med", "wmw", "hkr", "cff"))
 res
 #> $mo
-#> [1] 0.9436923
+#> [1] 0.9486241
 #> 
 #> $med
-#> [1] 0.9469112
+#> [1] 0.9517283
 #> 
 #> $wmw
-#> [1] 0.8940712
+#> [1] 0.9074959
 #> 
 #> $hkr
-#>            [,1]
-#> T1 2.548804e+08
-#> T2 7.546891e+03
+#>         [,1]
+#> T1 31987.663
+#> T2  8489.875
 #> 
 #> $cff
-#> [1] 12578.81
+#> [1] 14150.96
 ```
 
 We can also compute p-values associated to these statistics:
@@ -130,17 +129,17 @@ res <- permut_pval(
     verbose = TRUE)
 res
 #> $mo
-#> [1] 0.009950249
+#> [1] 0.01492537
 #> 
 #> $med
-#> [1] 0.009950249
+#> [1] 0.0199005
 #> 
 #> $wmw
-#> [1] 0.009950249
+#> [1] 0.01492537
 #> 
 #> $hkr
 #>          T1          T2 
-#> 0.009950249 0.009950249 
+#> 0.014925373 0.009950249 
 #> 
 #> $cff
 #> [1] 0.009950249

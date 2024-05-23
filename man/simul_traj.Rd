@@ -36,3 +36,6 @@ A median test for functional data, Journal of Nonparametric Statistics,
 \seealso{
 \code{\link[=simul_data]{simul_data()}}
 }
+\author{
+Zaineb Smida, Ghislain DURIF, Lionel Cucala
+}

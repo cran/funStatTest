@@ -41,3 +41,6 @@ A median test for functional data, Journal of Nonparametric Statistics,
 \seealso{
 \code{\link[=comp_stat]{comp_stat()}}, \code{\link[=permut_pval]{permut_pval()}}
 }
+\author{
+Zaineb Smida, Ghislain DURIF, Lionel Cucala
+}

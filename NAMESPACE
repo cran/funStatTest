@@ -2,6 +2,7 @@
 
 export("%>%")
 export(comp_stat)
+export(funStatTest_authors)
 export(permut_pval)
 export(plot_simu)
 export(power_exp)
@@ -46,4 +47,5 @@ importFrom(tibble,as_tibble)
 importFrom(tibble,lst)
 importFrom(tidyr,pivot_longer)
 importFrom(tidyselect,starts_with)
+importFrom(utils,citation)
 importFrom(utils,globalVariables)
